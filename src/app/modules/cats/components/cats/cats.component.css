@@ -1,0 +1,18 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: rgba(35, 90, 153, 0.44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

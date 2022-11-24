@@ -1,0 +1,8 @@
+<router-outlet name="selector"></router-outlet>
+
+
+<div routerLink="categories" class="button">Select something here</div>
+
+<div class="cards">
+  <app-cat *ngFor="let cat of cats" [cat]="cat"></app-cat>
+</div>
